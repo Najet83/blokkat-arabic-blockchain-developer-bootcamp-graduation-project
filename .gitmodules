@@ -1,6 +1,6 @@
-[submodule "Dapp_Front_End"]
-	path = Dapp_Front_End
-	url = https://github.com/Najet83/Dapp_Front_End
 [submodule "smart_contract"]
 	path = smart_contract
 	url = https://github.com/Najet83/smart_contract
+[submodule "Dapp_Front_End"]
+	path = Dapp_Front_End
+	url = https://github.com/Najet83/Dapp_Front_End
