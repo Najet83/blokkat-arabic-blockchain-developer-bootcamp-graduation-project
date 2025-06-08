@@ -59,20 +59,23 @@ Smart_Contract
 
 ## 🧠 Design Patterns:
 
-1- Inheritance and Interfaces (Importing and extending contracts and/or using contract interfaces) Inheritances and Interfaces:
-import ownable  بتاع openzeppelin
-
-2- Access Control Design Patterns (Restricting access to certain functions using things like Ownable, Role-based Control) Access Control Design Patterns
-
+1- Inheritance and Interfaces: import Openzeppelin Ownable contract
+Example: import "@openzeppelin/contracts/access/Ownable.sol";
+2- Access Control Design Patterns: Restricting access to certain functions using  Ownable
+Example: function withdraw(uint256 amount) external onlyOwner{...}
+3- Optimizing Gas: Using mapping instead of array
+Example: mapping(address => uint256) public balanceOf;
 
 ## 🔐 Security practices:
 
-1- Using Specific Compiler Pragma
-2- Proper Use of Require
-3- Proper use of .call and .delegateCall
+1- Using Specific Compiler Pragma:
+Example: pragma solidity 0.8.24;
+2- Proper Use of Require:
+Example: require(msg.value > 0, "You must send some ether");
+3- Proper use of .call and .delegateCall:
+Example: (bool sent, ) = msg.sender.call{value: amount}("");
 
 ## 🔗 Important Links & Addresses
-
 ### 📝 Smart Contract Addresses on Scroll Sepolia Testnet
 
 - **Contract Address:** 0x5c1fE1e2c7a4A8F40B053b541a1e3B0ee5daf6Bf
@@ -89,44 +92,52 @@ import ownable  بتاع openzeppelin
 
 ## 🧪 How to Run Tests
 
-1. 
-* cd smart_contract
-* Installez les dépendances :
+1. cd smart_contract
+2. Install dependencies :
 npm install
-* Exécutez les tests avec Foundry:
+3. Execute tests with Foundry:
 forge test
 
-✅ Les tests sont situés dans le répertoire smart_contract/test/
+✅ the test file "FinalProject.t.sol" is located in the test directory inside the smart_contract folder. (smart_contract/test) 
+These tests cover the core functionalities of the smart contract.
 
 🚀 How to Run the Program
 🖥️ Run on Local Server
-Naviguez vers le répertoire Dapp_Front_End/ :
+1. Navigate to the frontend directory :
 cd Dapp_Front_End
-Installez les dépendances : npm install
-Démarrez le serveur de développement : npm run dev
-L'application sera accessible à l'adresse http://localhost:3000/.
+2. Install the dependencies:
+npm install
+3. Start the development server:
+npm run dev
+4. The application will be available at:
+http://localhost:3000/
 
 🛠️ Setting Up .env File
-Créez un fichier .env dans le répertoire Dapp_Front_End/ avec le contenu suivant :
 
+1. Create a .env file by copying the provided example:
+cp .env.example .env
+2. Open the .env file and replace the placeholder values with your actual configuration.
+For example:
 NEXT_PUBLIC_PROJECT_ID= Your_project_ID
 NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourContractAddressHere
 
-⚠️ Assurez-vous de ne pas commettre votre fichier .env dans le contrôle de version.
+
+⚠️ Warning: Never commit your .env file to version control. It may contain sensitive information such as API keys or contract addresses. Use .env.example instead to document required variables.
 
 🎥 Demo
-📹 Watch the Full Walkthrough
-DApp Demo Video
+📹 Watch the full walkthrough of the DApp in action:
 
-La démonstration couvre :
+📺 Demo Video Link ← (replace with your actual video link)
 
-Le lancement de l'application en local
+The demo includes:
 
-La connexion avec MetaMask
+* Deploying and verifying the contract
 
-L'interaction avec le contrat intelligent (envoi de transactions)
+* Connecting MetaMask wallet
 
-La vérification des transactions sur Scroll Sepolia Explorer
+* Submitting transactions from the frontend
 
-La mise à jour en temps réel de l'interface utilisateur reflétant l'état du contrat
+* Viewing on-chain data updates
+
+* Checking the transaction on ScrollScan
 
