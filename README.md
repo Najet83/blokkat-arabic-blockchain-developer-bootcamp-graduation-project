@@ -95,8 +95,6 @@ Smart_Contract
 
 - **Live DApp:** :http://193-168-175-22.cloud-xip.com/
 
----
-
 ## 🧪 How to Run Tests
 
 1. cd smart_contract
