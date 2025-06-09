@@ -139,8 +139,6 @@ These tests cover the core functionalities of the smart contract.
 
 The demo includes:
 
-* Deploying and verifying the contract
-
 * Connecting MetaMask wallet
 
 * Submitting transactions from the frontend
