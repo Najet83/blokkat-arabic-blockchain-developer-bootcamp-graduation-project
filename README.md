@@ -61,13 +61,14 @@ Smart_Contract
 
 1. **Inheritance and Interfaces**  
    Import OpenZeppelin Ownable contract.  
-   _Example:_ `import "@openzeppelin/contracts/access/Ownable.sol";`
-
-2. **Access Control Design Patterns**  
+   _Example:_ `import "@openzeppelin/contracts/access/Ownable.sol";`         
+               contract FinalProject is Ownable { ... }
+   
+3. **Access Control Design Patterns**  
    Restricting access to certain functions using Ownable.  
    _Example:_ `function withdraw(uint256 amount) external onlyOwner {...}`
 
-3. **Optimizing Gas**  
+4. **Optimizing Gas**  
    Using mapping instead of array.  
    _Example:_ `mapping(address => uint256) public balanceOf;`
    
