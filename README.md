@@ -62,7 +62,7 @@ Smart_Contract
 1. **Inheritance and Interfaces**  
    Import OpenZeppelin Ownable contract.  
    _Example:_ `import "@openzeppelin/contracts/access/Ownable.sol";`         
-               contract FinalProject is Ownable { ... }
+               `contract FinalProject is Ownable { ... }`
    
 3. **Access Control Design Patterns**  
    Restricting access to certain functions using Ownable.  
@@ -75,18 +75,18 @@ Smart_Contract
 ## 🔐 Security practices:
 
 1. **Using Specific Compiler Pragma**   
-    _Example:_ pragma solidity 0.8.24;
+    _Example:_ `pragma solidity 0.8.24;`
 
 2. **Proper Use of Require**   
-    _Example:_ require(msg.value > 0, "You must send some ether");
+    _Example:_ `require(msg.value > 0, "You must send some ether");`
 
 3. **Proper use of .call and .delegateCall**   
-    _Example:_ (bool sent, ) = msg.sender.call{value: amount}("");
+    _Example:_ `(bool sent, ) = msg.sender.call{value: amount}("");`
 
 ## 🔗 Important Links & Addresses
 ### 📝 Smart Contract Addresses on Scroll Sepolia Testnet
 
-- **Contract Address:** 0x5c1fE1e2c7a4A8F40B053b541a1e3B0ee5daf6Bf
+- **Contract Address:** `0x5c1fE1e2c7a4A8F40B053b541a1e3B0ee5daf6Bf`
 
 ### 🧾 Verified Contract on Scroll Sepolia Explorer
 
@@ -94,7 +94,7 @@ Smart_Contract
 
 ### 🌐 Frontend DApp Hosting Link
 
-- **Live DApp:** :http://193-168-175-22.cloud-xip.com/
+- **Live DApp:**  http://193-168-175-22.cloud-xip.com/
 
 ## 🧪 How to Run Tests
 
@@ -127,8 +127,8 @@ These tests cover the core functionalities of the smart contract.
     cp .env.example .env
 2. Open the .env file and replace the placeholder values with your actual configuration.   
     _Example:_    
-       NEXT_PUBLIC_PROJECT_ID= Your_project_ID         
-       NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourContractAddressHere    
+       `NEXT_PUBLIC_PROJECT_ID= Your_project_ID`         
+       `NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourContractAddressHere`    
 
 
 ⚠️ Warning: Never commit your .env file to version control. It may contain sensitive information such as API keys or contract addresses. Use .env.example instead to document required variables.
