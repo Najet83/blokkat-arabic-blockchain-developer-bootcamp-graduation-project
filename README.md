@@ -126,8 +126,8 @@ These tests cover the core functionalities of the smart contract.
     cp .env.example .env
 2. Open the .env file and replace the placeholder values with your actual configuration.   
     For example:
-    NEXT_PUBLIC_PROJECT_ID= Your_project_ID
-    NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourContractAddressHere
+       NEXT_PUBLIC_PROJECT_ID= Your_project_ID         
+       NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourContractAddressHere    
 
 
 ⚠️ Warning: Never commit your .env file to version control. It may contain sensitive information such as API keys or contract addresses. Use .env.example instead to document required variables.
