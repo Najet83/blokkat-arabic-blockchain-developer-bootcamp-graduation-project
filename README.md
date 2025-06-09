@@ -73,13 +73,13 @@ Smart_Contract
    
 ## 🔐 Security practices:
 
-1. **Using Specific Compiler Pragma**
-   _Example:_ pragma solidity 0.8.24;
+1. **Using Specific Compiler Pragma**   
+    _Example:_ pragma solidity 0.8.24;
 
-2. **Proper Use of Require**
-   _Example:_ require(msg.value > 0, "You must send some ether");
+2. **Proper Use of Require**   
+    _Example:_ require(msg.value > 0, "You must send some ether");
 
-3. **Proper use of .call and .delegateCall**
+3. **Proper use of .call and .delegateCall**   
     _Example:_ (bool sent, ) = msg.sender.call{value: amount}("");
 
 ## 🔗 Important Links & Addresses
