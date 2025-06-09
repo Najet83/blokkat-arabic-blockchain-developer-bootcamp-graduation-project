@@ -111,20 +111,20 @@ These tests cover the core functionalities of the smart contract.
 
 🖥️ Run on Local Server
 
-1. Navigate to the frontend directory:
-cd Dapp_Front_End
-2. Install the dependencies:
-npm install
-3. Start the development server:
-npm run dev
-4. The application will be available at:
-http://localhost:3000/
+1. Navigate to the frontend directory:  
+    cd Dapp_Front_End
+2. Install the dependencies:  
+    npm install
+3. Start the development server:  
+    npm run dev
+4. The application will be available at:  
+    http://localhost:3000/
 
 🛠️ Setting Up .env File
 
-1. Create a .env file by copying the provided example:
+1. Create a .env file by copying the provided example:   
     cp .env.example .env
-2. Open the .env file and replace the placeholder values with your actual configuration.
+2. Open the .env file and replace the placeholder values with your actual configuration.   
     For example:
     NEXT_PUBLIC_PROJECT_ID= Your_project_ID
     NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourContractAddressHere
