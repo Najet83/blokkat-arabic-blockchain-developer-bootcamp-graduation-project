@@ -135,7 +135,7 @@ These tests cover the core functionalities of the smart contract.
 🎥 Demo 
 📹 Watch the full walkthrough of the DApp in action:
 
-📺 Demo Video Link ← (replace with your actual video link)
+📺 Demo Video Link ← https://flonnect.com/video/d91310e6b7db-46f5-9631-0e677928bd7e
 
 The demo includes:
 
@@ -145,5 +145,5 @@ The demo includes:
 
 * Viewing on-chain data updates
         
-* Checking the transaction on ScrollScan
+* Checking the transaction on  Scroll Sepolia explorer
 
