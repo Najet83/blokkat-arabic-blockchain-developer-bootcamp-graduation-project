@@ -97,18 +97,21 @@ Smart_Contract
 
 ## 🧪 How to Run Tests
 
-1. cd smart_contract
-2. Install dependencies :
-npm install
-3. Execute tests with Foundry:
-forge test
+1. Navigate to the frontend directory:    
+    cd smart_contract
+2. Install dependencies :   
+    npm install
+3. Execute tests with Foundry:   
+    forge test
 
 ✅ the test file "FinalProject.t.sol" is located in the test directory inside the smart_contract folder. (smart_contract/test) 
 These tests cover the core functionalities of the smart contract.
 
 🚀 How to Run the Program
+
 🖥️ Run on Local Server
-1. Navigate to the frontend directory :
+
+1. Navigate to the frontend directory:
 cd Dapp_Front_End
 2. Install the dependencies:
 npm install
@@ -120,11 +123,11 @@ http://localhost:3000/
 🛠️ Setting Up .env File
 
 1. Create a .env file by copying the provided example:
-cp .env.example .env
+    cp .env.example .env
 2. Open the .env file and replace the placeholder values with your actual configuration.
-For example:
-NEXT_PUBLIC_PROJECT_ID= Your_project_ID
-NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourContractAddressHere
+    For example:
+    NEXT_PUBLIC_PROJECT_ID= Your_project_ID
+    NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourContractAddressHere
 
 
 ⚠️ Warning: Never commit your .env file to version control. It may contain sensitive information such as API keys or contract addresses. Use .env.example instead to document required variables.
