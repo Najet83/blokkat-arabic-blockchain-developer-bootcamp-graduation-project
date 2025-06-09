@@ -132,18 +132,18 @@ These tests cover the core functionalities of the smart contract.
 
 ⚠️ Warning: Never commit your .env file to version control. It may contain sensitive information such as API keys or contract addresses. Use .env.example instead to document required variables.
 
-🎥 Demo
+🎥 Demo 
 📹 Watch the full walkthrough of the DApp in action:
 
-    📺 Demo Video Link ← (replace with your actual video link)
+📺 Demo Video Link ← (replace with your actual video link)
 
-    The demo includes:
+The demo includes:
 
-        * Connecting MetaMask wallet
+* Connecting MetaMask wallet
         
-        * Submitting transactions from the frontend
+* Submitting transactions from the frontend
+
+* Viewing on-chain data updates
         
-        * Viewing on-chain data updates
-        
-        * Checking the transaction on ScrollScan
+* Checking the transaction on ScrollScan
 
