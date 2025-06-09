@@ -135,15 +135,15 @@ These tests cover the core functionalities of the smart contract.
 🎥 Demo
 📹 Watch the full walkthrough of the DApp in action:
 
-📺 Demo Video Link ← (replace with your actual video link)
+    📺 Demo Video Link ← (replace with your actual video link)
 
-The demo includes:
+    The demo includes:
 
-* Connecting MetaMask wallet
-
-* Submitting transactions from the frontend
-
-* Viewing on-chain data updates
-
-* Checking the transaction on ScrollScan
+        * Connecting MetaMask wallet
+        
+        * Submitting transactions from the frontend
+        
+        * Viewing on-chain data updates
+        
+        * Checking the transaction on ScrollScan
 
