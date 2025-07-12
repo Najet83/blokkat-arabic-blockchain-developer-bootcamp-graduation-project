@@ -94,7 +94,7 @@ Smart_Contract
 
 ### 🌐 Frontend DApp Hosting Link
 
-- **Live DApp:**  http://193-168-175-22.cloud-xip.com/
+- **Live DApp:** (https://blokkatbootcampfinalprojectdapp.netlify.app/)
 
 ## 🧪 How to Run Tests
 
